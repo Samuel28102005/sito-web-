@@ -1,3 +1,17 @@
+a {
+    color: white;
+}
+button {
+    background-color: #208d05;
+}
+.header {
+    background-color: #208d05;
+    color: #ffffff;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #b8b6b6;
+
+
+}
 * {
     box-sizing: border-box;
 }
@@ -16,11 +30,12 @@
 .col-12 {width: 100%;}
 
 [class*="col-"] {
+    width:100%;
     float: left;
    
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
 .col-l-1 {width: 8.33%;}
 .col-l-2 {width: 16.66%;}
 .col-l-3 {width: 25%;}
@@ -35,7 +50,7 @@
 .col-l-12 {width: 100%;}
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
 .col-s-1 {width: 8.33%;}
 .col-s-2 {width: 16.66%;}
 .col-s-3 {width: 25%;}
@@ -50,6 +65,6 @@
 .col-s-12 {width: 100%;}
 
 }
-.zona{
-    float:right
+.intro{
+    width:60%;
 }
